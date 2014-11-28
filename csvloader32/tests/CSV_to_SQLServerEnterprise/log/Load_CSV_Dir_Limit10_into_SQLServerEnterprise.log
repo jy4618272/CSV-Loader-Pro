@@ -1,0 +1,68 @@
+
+c:\Python27\csvloader_1237>echo y  | c:\Python27\csvloader_dist_32\20141128_132623\csvloader32\csvloader32.exe -w csv2ssent -o 1 -r 1 -t "|" -l 10 -I c:\Python27\csvloader_1237\test\v101\data\ss_data_dir -y 1000 -u sa -p ssent_pwd -d test -s ALEX_BUZ-PC\MSSQLSERVER_ENT -a dbo.Persons_pipe_datetime_1 -Z "C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn"
+csv2ssent
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Loader Pro (v1.23.5, beta, 2014/11/28 13:26:23) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+SSENT
+####################
+Performing data load.
+
+From CSV:
+input dir: c:\Python27\csvloader_1237\test\v101\data\ss_data_dir
+
+
+To SQLServer:
+to db: sa/test/ALEX_BUZ-PC\MSSQLSERVER_ENT
+to table: dbo.Persons_pipe_datetime_1
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (1 threads, 3 shards):
+############################################################
+
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Counting lines in input file...
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Done.
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Estimated line count: 159
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Counting lines in input file...
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Done.
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Estimated line count: 39
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Counting lines in input file...
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Done.
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Estimated line count: 39
+2014-11-28 13:32:43,410 - csv2ssent - WARNING - Overriding num_of_shards 1->3.
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Starting Thread-0
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Thread-0 processing Shard-0
+2014-11-28 13:32:43,410 - csv2ssent - INFO - Loading data...
+2014-11-28 13:32:43,457 - csv2ssent - INFO - (10 rows affected)
+
+2014-11-28 13:32:43,457 - csv2ssent - INFO - sqlcmd status =0
+2014-11-28 13:32:43,457 - csv2ssent - INFO - Done.
+2014-11-28 13:32:43,457 - csv2ssent - INFO - Thread-0 exit status 0
+2014-11-28 13:32:43,457 - csv2ssent - INFO - Thread-0 processing Shard-1
+2014-11-28 13:32:43,457 - csv2ssent - INFO - Loading data...
+2014-11-28 13:32:43,503 - csv2ssent - INFO - (10 rows affected)
+
+2014-11-28 13:32:43,503 - csv2ssent - INFO - sqlcmd status =0
+2014-11-28 13:32:43,503 - csv2ssent - INFO - Done.
+2014-11-28 13:32:43,503 - csv2ssent - INFO - Thread-0 exit status 0
+2014-11-28 13:32:43,503 - csv2ssent - INFO - Thread-0 processing Shard-2
+2014-11-28 13:32:43,503 - csv2ssent - INFO - Loading data...
+2014-11-28 13:32:43,566 - csv2ssent - INFO - (10 rows affected)
+
+2014-11-28 13:32:43,566 - csv2ssent - INFO - sqlcmd status =0
+2014-11-28 13:32:43,566 - csv2ssent - INFO - Done.
+2014-11-28 13:32:43,566 - csv2ssent - INFO - Thread-0 exit status 0
+2014-11-28 13:32:43,566 - csv2ssent - INFO - Exiting Thread-0
+2014-11-28 13:32:43,566 - csv2ssent - INFO - Shard-0/0:          10 rows
+2014-11-28 13:32:43,566 - csv2ssent - INFO - Shard-1/0:          10 rows
+2014-11-28 13:32:43,566 - csv2ssent - INFO - Shard-2/0:          10 rows
+2014-11-28 13:32:43,566 - csv2ssent - INFO - TOTAL Bytes:       24477 Bytes
+2014-11-28 13:32:43,566 - csv2ssent - INFO - TOTAL Rows:           30 Rows
+2014-11-28 13:32:43,566 - csv2ssent - INFO - Done.
+2014-11-28 13:32:43,566 - csv2ssent - INFO - Elapsed: 00:00:00

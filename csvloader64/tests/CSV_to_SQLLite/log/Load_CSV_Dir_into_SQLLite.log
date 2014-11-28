@@ -1,0 +1,59 @@
+
+c:\Python27\csvloader_1237>echo y  | c:\Python27\csvloader_dist_64\20141128_132623\csvloader64\csvloader64.exe -w csv2slite -o 1 -r 1 -t "|" -I c:\Python27\csvloader_1237\test\v101\data\slite_data_dir -y 1000 -a Persons_pipe_datetime_1 -d C:\Temp\SqlLite\database.db -Z "C:\Temp\SqlLite"
+csv2slite
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Loader Pro (v1.23.5, beta, 2014/11/28 13:26:23) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+SLITE
+####################
+Performing data load.
+
+From CSV:
+input dir: c:\Python27\csvloader_1237\test\v101\data\slite_data_dir
+
+
+To SQL Lite:
+to db: C:\Temp\SqlLite\database.db
+to table: Persons_pipe_datetime_1
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (1 threads, 3 shards):
+############################################################
+
+2014-11-28 13:27:58,457 - csv2slite - INFO - Counting lines in input file...
+2014-11-28 13:27:58,457 - csv2slite - INFO - Done.
+2014-11-28 13:27:58,457 - csv2slite - INFO - Estimated line count: 28
+2014-11-28 13:27:58,457 - csv2slite - INFO - Counting lines in input file...
+2014-11-28 13:27:58,457 - csv2slite - INFO - Done.
+2014-11-28 13:27:58,457 - csv2slite - INFO - Estimated line count: 28
+2014-11-28 13:27:58,457 - csv2slite - INFO - Counting lines in input file...
+2014-11-28 13:27:58,457 - csv2slite - INFO - Done.
+2014-11-28 13:27:58,457 - csv2slite - INFO - Estimated line count: 28
+2014-11-28 13:27:58,457 - csv2slite - WARNING - Overriding num_of_shards 1->3.
+2014-11-28 13:27:58,457 - csv2slite - INFO - Starting Thread-0
+2014-11-28 13:27:58,457 - csv2slite - INFO - Thread-0 processing Shard-0
+2014-11-28 13:27:58,457 - csv2slite - INFO - Loading data...
+2014-11-28 13:27:58,832 - csv2slite - INFO - Done.
+2014-11-28 13:27:58,832 - csv2slite - INFO - Thread-0 exit status 0
+2014-11-28 13:27:58,832 - csv2slite - INFO - Thread-0 processing Shard-1
+2014-11-28 13:27:58,832 - csv2slite - INFO - Loading data...
+2014-11-28 13:27:58,957 - csv2slite - INFO - Done.
+2014-11-28 13:27:58,957 - csv2slite - INFO - Thread-0 exit status 0
+2014-11-28 13:27:58,957 - csv2slite - INFO - Thread-0 processing Shard-2
+2014-11-28 13:27:58,957 - csv2slite - INFO - Loading data...
+2014-11-28 13:27:59,052 - csv2slite - INFO - Done.
+2014-11-28 13:27:59,052 - csv2slite - INFO - Thread-0 exit status 0
+2014-11-28 13:27:59,052 - csv2slite - INFO - Exiting Thread-0
+2014-11-28 13:27:59,052 - csv2slite - INFO - Shard-0/0:          28 rows
+2014-11-28 13:27:59,052 - csv2slite - INFO - Shard-1/0:          28 rows
+2014-11-28 13:27:59,052 - csv2slite - INFO - Shard-2/0:          28 rows
+2014-11-28 13:27:59,052 - csv2slite - INFO - TOTAL Bytes:        8400 Bytes
+2014-11-28 13:27:59,052 - csv2slite - INFO - TOTAL Rows:           84 Rows
+2014-11-28 13:27:59,052 - csv2slite - INFO - Done.
+2014-11-28 13:27:59,052 - csv2slite - INFO - Elapsed: 00:00:00

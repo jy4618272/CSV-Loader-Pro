@@ -1,0 +1,59 @@
+
+c:\Python27\csvloader_1237>echo y  | c:\Python27\csvloader_dist_64\20141128_132623\csvloader64\csvloader64.exe -w csv2maria -o 1 -r 1 -t "|" -I c:\Python27\csvloader_1237\test\v101\data\mysql_data_dir -k 1 -y 1000 -u "root" -p "maria_pwd" -d "test" -s "localhost" -a Persons_pipe_datetime_1 -Z "C:\Program Files\MariaDB 10.0\bin"
+csv2maria
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Loader Pro (v1.23.5, beta, 2014/11/28 13:26:23) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+MARIA
+####################
+Performing data load.
+
+From CSV:
+input dir: c:\Python27\csvloader_1237\test\v101\data\mysql_data_dir
+
+
+To MariaDB:
+to db: root/test/localhost
+to table: Persons_pipe_datetime_1
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (1 threads, 3 shards):
+############################################################
+
+2014-11-28 13:27:57,191 - csv2maria - INFO - Counting lines in input file...
+2014-11-28 13:27:57,191 - csv2maria - INFO - Done.
+2014-11-28 13:27:57,191 - csv2maria - INFO - Estimated line count: 64
+2014-11-28 13:27:57,191 - csv2maria - INFO - Counting lines in input file...
+2014-11-28 13:27:57,191 - csv2maria - INFO - Done.
+2014-11-28 13:27:57,191 - csv2maria - INFO - Estimated line count: 64
+2014-11-28 13:27:57,191 - csv2maria - INFO - Counting lines in input file...
+2014-11-28 13:27:57,191 - csv2maria - INFO - Done.
+2014-11-28 13:27:57,191 - csv2maria - INFO - Estimated line count: 64
+2014-11-28 13:27:57,191 - csv2maria - WARNING - Overriding num_of_shards 1->3.
+2014-11-28 13:27:57,191 - csv2maria - INFO - Starting Thread-0
+2014-11-28 13:27:57,191 - csv2maria - INFO - Thread-0 processing Shard-0
+2014-11-28 13:27:57,191 - csv2maria - INFO - Loading data...
+2014-11-28 13:27:57,910 - csv2maria - INFO - Done.
+2014-11-28 13:27:57,910 - csv2maria - INFO - Thread-0 exit status 0
+2014-11-28 13:27:57,910 - csv2maria - INFO - Thread-0 processing Shard-1
+2014-11-28 13:27:57,910 - csv2maria - INFO - Loading data...
+2014-11-28 13:27:58,003 - csv2maria - INFO - Done.
+2014-11-28 13:27:58,003 - csv2maria - INFO - Thread-0 exit status 0
+2014-11-28 13:27:58,003 - csv2maria - INFO - Thread-0 processing Shard-2
+2014-11-28 13:27:58,003 - csv2maria - INFO - Loading data...
+2014-11-28 13:27:58,049 - csv2maria - INFO - Done.
+2014-11-28 13:27:58,049 - csv2maria - INFO - Thread-0 exit status 0
+2014-11-28 13:27:58,049 - csv2maria - INFO - Exiting Thread-0
+2014-11-28 13:27:58,049 - csv2maria - INFO - Shard-0/0:          64 rows
+2014-11-28 13:27:58,049 - csv2maria - INFO - Shard-1/0:          64 rows
+2014-11-28 13:27:58,049 - csv2maria - INFO - Shard-2/0:          64 rows
+2014-11-28 13:27:58,049 - csv2maria - INFO - TOTAL Bytes:       18816 Bytes
+2014-11-28 13:27:58,049 - csv2maria - INFO - TOTAL Rows:          192 Rows
+2014-11-28 13:27:58,049 - csv2maria - INFO - Done.
+2014-11-28 13:27:58,049 - csv2maria - INFO - Elapsed: 00:00:00

@@ -1,0 +1,42 @@
+
+c:\Python27\csvloader_1237>echo y  | c:\Python27\csvloader_dist_64\20141128_132623\csvloader64\csvloader64.exe -w csv2infor -o 1 -r 1 -t "|" -i c:\Python27\csvloader_1237\test\v101\data\informix_shard_0.data -y 1000 -a Persons_pipe_datetime_1 -u "informix" -p "test_pwd" -d "test" -s "ol_s_112614_175026" -Z "C:\Program Files (x86)\IBM Informix Software Bundle\bin"
+csv2infor
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Loader Pro (v1.23.5, beta, 2014/11/28 13:26:23) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+INFOR
+####################
+Performing data load.
+
+From CSV:
+input file: c:\Python27\csvloader_1237\test\v101\data\informix_shard_0.data
+
+
+To Informix IDS:
+to db: informix/test/ol_s_112614_175026
+to table: Persons_pipe_datetime_1
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-11-28 13:29:34,581 - csv2infor - INFO - Counting lines in input file...
+2014-11-28 13:29:34,581 - csv2infor - INFO - Done.
+2014-11-28 13:29:34,581 - csv2infor - INFO - Estimated line count: 86
+2014-11-28 13:29:34,581 - csv2infor - INFO - Starting Thread-0
+2014-11-28 13:29:34,596 - csv2infor - INFO - Thread-0 processing Shard-0
+2014-11-28 13:29:34,596 - csv2infor - INFO - Loading data...
+2014-11-28 13:29:34,628 - csv2infor - INFO - Done.
+2014-11-28 13:29:34,628 - csv2infor - INFO - Thread-0 exit status 0
+2014-11-28 13:29:34,628 - csv2infor - INFO - Exiting Thread-0
+2014-11-28 13:29:34,628 - csv2infor - INFO - Shard-0/0:          86 rows
+2014-11-28 13:29:34,628 - csv2infor - INFO - TOTAL Bytes:        8428 Bytes
+2014-11-28 13:29:34,628 - csv2infor - INFO - TOTAL Rows:           86 Rows
+2014-11-28 13:29:34,628 - csv2infor - INFO - Done.
+2014-11-28 13:29:34,628 - csv2infor - INFO - Elapsed: 00:00:00

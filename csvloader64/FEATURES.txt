@@ -1,0 +1,33 @@
+##
+##csvloader64.exe -h FEAT 
+##
+---------------------------------------------------------------------- 
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Loader Pro (v1.23.5, beta, 2014/11/28 13:26:23) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+	1. Load data from "CSV file" to "DB2 Workgroup Server"
+	2. Load data from "CSV file" to "SQL Server Express"
+	3. Load data from "CSV file" to "Sybase SQL Anywhere"
+	4. Load data from "CSV file" to "DB2 Advanced Workgroup Server"
+	5. Load data from "CSV file" to "DB2 Enterprise Server"
+	6. Load data from "CSV file" to "Sybase IQ"
+	7. Load data from "CSV file" to "PostgreSQL"
+	8. Load data from "CSV file" to "DB2 Express"
+	9. Load data from "CSV file" to "TimesTen"
+	10. Load data from "CSV file" to "MariaDB"
+	11. Load data from "CSV file" to "SQL Lite"
+	12. Load data from "CSV file" to "Oracle XE"
+	13. Load data from "CSV file" to "DB2 Advanced Enterprise Server"
+	14. Load data from "CSV file" to "Informix Innovator C"
+	15. Load data from "CSV file" to "Exadata"
+	16. Load data from "CSV file" to "SAP Sybase ASE"
+	17. Load data from "CSV file" to "DB2 Express C"
+	18. Load data from "CSV file" to "Infobright"
+	19. Load data from "CSV file" to "SQL Server Enterprise"
+	20. Load data from "CSV file" to "MySQL"
+	21. Load data from "CSV file" to "DB2 Developer Edition"
+	22. Load data from "CSV file" to "Informix IDS"
+	23. Load data from "CSV file" to "Oracle"

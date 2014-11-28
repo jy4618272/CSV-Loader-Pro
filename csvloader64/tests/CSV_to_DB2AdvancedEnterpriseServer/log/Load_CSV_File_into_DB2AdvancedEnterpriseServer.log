@@ -1,0 +1,43 @@
+
+c:\Python27\csvloader_1237>echo y  | c:\Python27\csvloader_dist_64\20141128_132623\csvloader64\csvloader64.exe -w csv2dbtaes -o 1 -r 1 -t "|" -i c:\Python27\csvloader_1237\test\v101\data\db2_shard_0.data -y 1000 -a ALEX_BUZ.Persons_pipe_datetime_1 -u "ALEX_BUZ" -p "198Morgan" -d "SAMPLE" -s "DB2" -Z "C:\Program Files (x86)\IBM\SQLLIB_01\BIN"
+csv2dbtaes
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Loader Pro (v1.23.5, beta, 2014/11/28 13:26:23) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+DBTAES
+####################
+Performing data load.
+
+From CSV:
+input file: c:\Python27\csvloader_1237\test\v101\data\db2_shard_0.data
+
+
+To DB2 Advanced Enterprise Server:
+to db: ALEX_BUZ/SAMPLE/DB2
+to table: ALEX_BUZ.Persons_pipe_datetime_1
+
+####################
+Are you sure you want to proceed?(y/n):
+0
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-11-28 13:28:13,224 - csv2dbtaes - INFO - Counting lines in input file...
+2014-11-28 13:28:13,224 - csv2dbtaes - INFO - Done.
+2014-11-28 13:28:13,224 - csv2dbtaes - INFO - Estimated line count: 20
+2014-11-28 13:28:13,224 - csv2dbtaes - INFO - Starting Thread-0
+2014-11-28 13:28:13,240 - csv2dbtaes - INFO - Thread-0 processing Shard-0
+2014-11-28 13:28:13,240 - csv2dbtaes - INFO - Loading data...
+2014-11-28 13:28:15,660 - csv2dbtaes - INFO - Done.
+2014-11-28 13:28:15,660 - csv2dbtaes - INFO - Thread-0 exit status 0
+2014-11-28 13:28:15,660 - csv2dbtaes - INFO - Exiting Thread-0
+2014-11-28 13:28:15,660 - csv2dbtaes - INFO - Shard-0/0:          20 rows
+2014-11-28 13:28:15,660 - csv2dbtaes - INFO - TOTAL Bytes:        2100 Bytes
+2014-11-28 13:28:15,660 - csv2dbtaes - INFO - TOTAL Rows:           20 Rows
+2014-11-28 13:28:15,660 - csv2dbtaes - INFO - Done.
+2014-11-28 13:28:15,660 - csv2dbtaes - INFO - Elapsed: 00:00:02

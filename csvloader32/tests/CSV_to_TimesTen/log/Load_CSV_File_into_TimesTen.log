@@ -1,0 +1,42 @@
+
+c:\Python27\csvloader_1237>echo y  | c:\Python27\csvloader_dist_32\20141128_132623\csvloader32\csvloader32.exe -w csv2tten -o 1 -r 1 -t "|" -i c:\Python27\csvloader_1237\test\v101\data\tt_shard_0.data -y 1000 -a TERRY.Persons_pipe_datetime_1 -u TERRY -p secret -d my_ttdb -e "YYYY-MM-DD" -m "YYYY-MM-DD HH24.MI.SS.FF" -Z "C:\Program Files (x86)\TimesTen\tt1122_64\bin"
+csv2tten
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Loader Pro (v1.23.5, beta, 2014/11/28 13:26:23) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+TTEN
+####################
+Performing data load.
+
+From CSV:
+input file: c:\Python27\csvloader_1237\test\v101\data\tt_shard_0.data
+
+
+To TimesTen:
+to db: TERRY@my_ttdb
+to table: TERRY.Persons_pipe_datetime_1
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-11-28 13:31:12,993 - csv2tten - INFO - Counting lines in input file...
+2014-11-28 13:31:12,993 - csv2tten - INFO - Done.
+2014-11-28 13:31:12,993 - csv2tten - INFO - Estimated line count: 109
+2014-11-28 13:31:12,993 - csv2tten - INFO - Starting Thread-0
+2014-11-28 13:31:12,993 - csv2tten - INFO - Thread-0 processing Shard-0
+2014-11-28 13:31:12,993 - csv2tten - INFO - Loading data...
+2014-11-28 13:31:14,757 - csv2tten - INFO - Done.
+2014-11-28 13:31:14,757 - csv2tten - INFO - Thread-0 exit status 0
+2014-11-28 13:31:14,757 - csv2tten - INFO - Exiting Thread-0
+2014-11-28 13:31:14,757 - csv2tten - INFO - Shard-0/0:         108 rows
+2014-11-28 13:31:14,757 - csv2tten - INFO - TOTAL Bytes:       11421 Bytes
+2014-11-28 13:31:14,757 - csv2tten - INFO - TOTAL Rows:          108 Rows
+2014-11-28 13:31:14,757 - csv2tten - INFO - Done.
+2014-11-28 13:31:14,757 - csv2tten - INFO - Elapsed: 00:00:01

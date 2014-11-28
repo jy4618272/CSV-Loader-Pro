@@ -1,0 +1,42 @@
+
+c:\Python27\csvloader_1237>echo y  | c:\Python27\csvloader_dist_32\20141128_132623\csvloader32\csvloader32.exe -w csv2syany -o 1 -r 1 -t "|" -i c:\Python27\csvloader_1237\test\v101\data\sybase_shard_0.data -y 1000 -u "dba" -p "sql" -d "demo" -s "demo16" -a "Persons_pipe_datetime_1" -Z "C:\Program Files\SQL Anywhere 16\Bin64"
+csv2syany
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Loader Pro (v1.23.5, beta, 2014/11/28 13:26:23) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+SYANY
+####################
+Performing data load.
+
+From CSV:
+input file: c:\Python27\csvloader_1237\test\v101\data\sybase_shard_0.data
+
+
+To Sybase ASE:
+to db: dba/demo/demo16
+to table: Persons_pipe_datetime_1
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (1 threads, 1 shards):
+############################################################
+
+2014-11-28 13:30:00,010 - csv2syany - INFO - Counting lines in input file...
+2014-11-28 13:30:00,010 - csv2syany - INFO - Done.
+2014-11-28 13:30:00,010 - csv2syany - INFO - Estimated line count: 21
+2014-11-28 13:30:00,010 - csv2syany - INFO - Starting Thread-0
+2014-11-28 13:30:00,026 - csv2syany - INFO - Thread-0 processing Shard-0
+2014-11-28 13:30:00,026 - csv2syany - INFO - Loading data...
+2014-11-28 13:30:00,730 - csv2syany - INFO - Done.
+2014-11-28 13:30:00,730 - csv2syany - INFO - Thread-0 exit status 0
+2014-11-28 13:30:00,730 - csv2syany - INFO - Exiting Thread-0
+2014-11-28 13:30:00,730 - csv2syany - INFO - Shard-0/0:          21 rows
+2014-11-28 13:30:00,730 - csv2syany - INFO - TOTAL Bytes:        2138 Bytes
+2014-11-28 13:30:00,730 - csv2syany - INFO - TOTAL Rows:           21 Rows
+2014-11-28 13:30:00,730 - csv2syany - INFO - Done.
+2014-11-28 13:30:00,730 - csv2syany - INFO - Elapsed: 00:00:00

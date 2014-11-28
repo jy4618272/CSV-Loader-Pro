@@ -1,0 +1,49 @@
+
+c:\Python27\csvloader_1237>echo y  | c:\Python27\csvloader_dist_32\20141128_132623\csvloader32\csvloader32.exe -w csv2ssexp -o 3 -r 3 -t "|" -l 10 -i c:\Python27\csvloader_1237\test\v101\data\ss_shard_0.data -y 10 -u sa -p 198Morgan -d master -s ALEX_BUZ-PC\SQLEXPRESS -a dbo.Persons_pipe_datetime_1 -Z "C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn"
+csv2ssexp
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Loader Pro (v1.23.5, beta, 2014/11/28 13:26:23) [32bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+SSEXP
+####################
+Performing data load.
+
+From CSV:
+input file: c:\Python27\csvloader_1237\test\v101\data\ss_shard_0.data
+
+
+To SQLServer:
+to db: sa/master/ALEX_BUZ-PC\SQLEXPRESS
+to table: dbo.Persons_pipe_datetime_1
+
+####################
+Are you sure you want to proceed?(y/n):
+############################################################
+Copy stats (3 threads, 3 shards):
+############################################################
+
+2014-11-28 13:29:57,793 - csv2ssexp - INFO - Counting lines in input file...
+2014-11-28 13:29:57,793 - csv2ssexp - INFO - Done.
+2014-11-28 13:29:57,793 - csv2ssexp - INFO - Estimated line count: 39
+2014-11-28 13:29:57,793 - csv2ssexp - INFO - Starting Thread-0
+2014-11-28 13:29:57,793 - csv2ssexp - INFO - Starting Thread-1
+2014-11-28 13:29:57,793 - csv2ssexp - INFO - Starting Thread-2
+2014-11-28 13:29:57,793 - csv2ssexp - INFO - Thread-0 processing Shard-0
+2014-11-28 13:29:57,793 - csv2ssexp - INFO - Exiting Thread-2
+2014-11-28 13:29:57,793 - csv2ssexp - INFO - Exiting Thread-1
+2014-11-28 13:29:57,793 - csv2ssexp - INFO - Loading data...
+2014-11-28 13:29:57,855 - csv2ssexp - INFO - (10 rows affected)
+
+2014-11-28 13:29:57,855 - csv2ssexp - INFO - sqlcmd status =0
+2014-11-28 13:29:57,855 - csv2ssexp - INFO - Done.
+2014-11-28 13:29:57,855 - csv2ssexp - INFO - Thread-0 exit status 0
+2014-11-28 13:29:57,855 - csv2ssexp - INFO - Exiting Thread-0
+2014-11-28 13:29:57,855 - csv2ssexp - INFO - Shard-0/0:          10 rows
+2014-11-28 13:29:57,855 - csv2ssexp - INFO - TOTAL Bytes:        4079 Bytes
+2014-11-28 13:29:57,855 - csv2ssexp - INFO - TOTAL Rows:           10 Rows
+2014-11-28 13:29:57,855 - csv2ssexp - INFO - Done.
+2014-11-28 13:29:57,855 - csv2ssexp - INFO - Elapsed: 00:00:00

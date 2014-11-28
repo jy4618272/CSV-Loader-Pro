@@ -1,0 +1,86 @@
+
+c:\Python27\csvloader_1237>echo y  | c:\Python27\csvloader_dist_64\20141128_132623\csvloader64\csvloader64.exe -w csv2inforc -o 1 -r 1 -t "|" -I c:\Python27\csvloader_1237\test\v101\data\infor_data_dir -y 1000 -a Persons_pipe_datetime_1 -u "informix" -p "infor_pwd" -d "test" -s "ol_s_111614_133312" -Z "C:\Program Files (x86)\IBM Informix Software Bundle\bin"
+csv2inforc
+----------------------------------------------------------------------
+#FreeUkraine #SaveUkraine #StopRussia #PutinKhuilo #CrimeaIsUkraine
+----------------------------------------------------------------------
+CSV*Loader Pro (v1.23.5, beta, 2014/11/28 13:26:23) [64bit]
+Copyright (c): 2014 Alex Buzunov, All rigts reserved.
+Agreement: Use this tool at your own risk. Author is not liable for any damages or losses related to the use of this software.
+----------------------------------------------------------------------
+INFORC
+####################
+Performing data load.
+
+From CSV:
+input dir: c:\Python27\csvloader_1237\test\v101\data\infor_data_dir
+
+
+To Informix Innovator C:
+to db: informix/test/ol_s_111614_133312
+to table: Persons_pipe_datetime_1
+
+####################
+Are you sure you want to proceed?(y/n):
+
+25555: Server ol_s_111614_133312 is not listed as a dbserver name in sqlhosts.
+Error in line 2
+Near character position 1
+
+349: Database not selected yet.
+Error in line 3
+Near character position 141
+
+
+25555: Server ol_s_111614_133312 is not listed as a dbserver name in sqlhosts.
+Error in line 2
+Near character position 1
+
+349: Database not selected yet.
+Error in line 3
+Near character position 141
+
+
+25555: Server ol_s_111614_133312 is not listed as a dbserver name in sqlhosts.
+Error in line 2
+Near character position 1
+
+349: Database not selected yet.
+Error in line 3
+Near character position 141
+
+############################################################
+Copy stats (1 threads, 3 shards):
+############################################################
+
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Counting lines in input file...
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Done.
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Estimated line count: 86
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Counting lines in input file...
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Done.
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Estimated line count: 86
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Counting lines in input file...
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Done.
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Estimated line count: 86
+2014-11-28 13:28:32,378 - csv2inforc - WARNING - Overriding num_of_shards 1->3.
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Starting Thread-0
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Thread-0 processing Shard-0
+2014-11-28 13:28:32,378 - csv2inforc - INFO - Loading data...
+2014-11-28 13:28:32,408 - csv2inforc - ERROR - Completed with errors.
+2014-11-28 13:28:32,408 - csv2inforc - INFO - Thread-0 exit status -1
+2014-11-28 13:28:32,408 - csv2inforc - INFO - Thread-0 processing Shard-1
+2014-11-28 13:28:32,408 - csv2inforc - INFO - Loading data...
+2014-11-28 13:28:32,424 - csv2inforc - ERROR - Completed with errors.
+2014-11-28 13:28:32,424 - csv2inforc - INFO - Thread-0 exit status -1
+2014-11-28 13:28:32,424 - csv2inforc - INFO - Thread-0 processing Shard-2
+2014-11-28 13:28:32,424 - csv2inforc - INFO - Loading data...
+2014-11-28 13:28:32,440 - csv2inforc - ERROR - Completed with errors.
+2014-11-28 13:28:32,440 - csv2inforc - INFO - Thread-0 exit status -1
+2014-11-28 13:28:32,440 - csv2inforc - INFO - Exiting Thread-0
+2014-11-28 13:28:32,440 - csv2inforc - INFO - Shard-0/-1:		n/a
+2014-11-28 13:28:32,440 - csv2inforc - INFO - Shard-1/-1:		n/a
+2014-11-28 13:28:32,440 - csv2inforc - INFO - Shard-2/-1:		n/a
+2014-11-28 13:28:32,440 - csv2inforc - INFO - TOTAL Bytes:       25284 Bytes
+2014-11-28 13:28:32,440 - csv2inforc - INFO - TOTAL Rows:		n/a
+2014-11-28 13:28:32,440 - csv2inforc - ERROR - Copy failed.
+2014-11-28 13:28:32,440 - csv2inforc - INFO - Elapsed: 00:00:00
